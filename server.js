@@ -1,7 +1,7 @@
 import http from 'http'
 import { Server as FileServer } from 'node-static'
 import WebSocket from 'ws'
-import { authenticate } from './public/auth.js'
+import { authenticate } from './public/lib/auth.js'
 //import crypto from 'crypto'
 
 // const generateAcceptValue = ( acceptKey ) => {
